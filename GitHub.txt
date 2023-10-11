@@ -1,0 +1,66 @@
+Criar novo repositorio:
+git config --global user.name "Colocar seu user name do github"
+
+git config --global use.email "O teu email que cadastrou no github"
+
+git init
+
+git add .
+
+git commit -m "first commit"
+
+git branch -M main
+
+git remote add origin por url do repositorio
+
+git push -u origin main
+
+=================================
+
+atualizar repositorio existente:
+
+git init
+
+rm -rf .git "apagando um repositório"
+
+git add .
+
+git commit -m "atualização feita"
+
+git push 
+
+=============================
+Adicionais:
+
+git status -> "Esse lista todos os arquivos modificados pela ultima vez"
+
+git checkout . -->"esse removerá as auterações"
+
+git reset --> "Se você executou git add e quer desfazer, use o"
+
+git revert HEAD -->"desfazendo o ultimo commit"
+
+git commit --amend -->"Renomear o ultimo commit"
+
+git checkout -b "Bota algum nome" --> "Criando uma nova branch"
+
+git checkout minha-branch ==>"Acessando a branch, é só por o nome dela"
+
+git branch -d nome-da-branch
+git branch -D nome-da-branch --> "Apagando uma branch, colocando seu nome"
+
+git branch -m novo-nome-da-branch --> "modificar o nome da branch"
+
+git branch -m nome-atual novo-nome --> "Mudando o nome de uma branch aleatória"
+
+$ git log -->"Vizualizar o histórico de Commits"
+
+
+
+
+
+
+
+
+
+
